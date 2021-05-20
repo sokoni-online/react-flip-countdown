@@ -1,10 +1,10 @@
 {
-    "name": "@rumess/react-flip-countdown",
-    "version": "1.2.3",
-    "description": "The React Flip Countdown Component",
-    "author": "rumess",
+    "name": "@africasokoni/react-flip-countdown",
+    "version": "1.0.0",
+    "description": "React Flip Countdown Component",
+    "author": "africasokoni",
     "license": "MIT",
-    "repository": "rumess/react-flip-countdown",
+    "repository": "africasokoni/react-flip-countdown",
     "keywords": [
         "react",
         "reactjs",
