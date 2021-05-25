@@ -1,4 +1,4 @@
-# @rumess/react-flip-countdown
+# @africasokoni/react-flip-countdown
 
 > The React Flip Countdown Component.
 
@@ -6,18 +6,20 @@
 [![NPM Downloads][downloads-image]][downloads-url]
 [![JavaScript Style Guide][coding-image]][coding-url]
 
-[DEMO](https://rumess.github.io/react-flip-countdown/)
+[DEMO](https://africasokoni.github.io/react-flip-countdown/)
 
 ## Install
 
 Using npm:
+
 ```bash
-npm install @rumess/react-flip-countdown
+npm install @africasokoni/react-flip-countdown
 ```
 
 Using yarn:
+
 ```bash
-yarn add @rumess/react-flip-countdown
+yarn add @africasokoni/react-flip-countdown
 ```
 
 ## Usage
@@ -27,16 +29,16 @@ yarn add @rumess/react-flip-countdown
 ```jsx
 import React, { Component } from 'react';
 
-import FlipCountdown from '@rumess/react-flip-countdown';
+import FlipCountdown from '@africasokoni/react-flip-countdown';
 
 class ExampleBasic extends Component {
-    render() {
-        return (
-            <FlipCountdown
-                endAt={'2022-12-12 01:26:58'} // Date/Time
-            />
-        );
-    }
+  render() {
+    return (
+      <FlipCountdown
+        endAt={'2022-12-12 01:26:58'} // Date/Time
+      />
+    );
+  }
 }
 ```
 
@@ -45,17 +47,17 @@ class ExampleBasic extends Component {
 ```jsx
 import React, { Component } from 'react';
 
-import FlipCountdown from '@rumess/react-flip-countdown';
+import FlipCountdown from '@africasokoni/react-flip-countdown';
 
 class ExampleSize extends Component {
-    render() {
-        return (
-            <FlipCountdown
-                size='large' // Options (Default: medium): large, medium, small, extra-small.
-                endAt={'2022-12-12 01:26:58'} // Date/Time
-            />
-        );
-    }
+  render() {
+    return (
+      <FlipCountdown
+        size='large' // Options (Default: medium): large, medium, small, extra-small.
+        endAt={'2022-12-12 01:26:58'} // Date/Time
+      />
+    );
+  }
 }
 ```
 
@@ -64,17 +66,17 @@ class ExampleSize extends Component {
 ```jsx
 import React, { Component } from 'react';
 
-import FlipCountdown from '@rumess/react-flip-countdown';
+import FlipCountdown from '@africasokoni/react-flip-countdown';
 
 class ExampleTheme extends Component {
-    render() {
-        return (
-            <FlipCountdown
-                theme='dark' // Options (Default: dark): dark, light.
-                endAt={'2022-12-12 01:26:58'} // Date/Time
-            />
-        );
-    }
+  render() {
+    return (
+      <FlipCountdown
+        theme='dark' // Options (Default: dark): dark, light.
+        endAt={'2022-12-12 01:26:58'} // Date/Time
+      />
+    );
+  }
 }
 ```
 
@@ -83,17 +85,17 @@ class ExampleTheme extends Component {
 ```jsx
 import React, { Component } from 'react';
 
-import FlipCountdown from '@rumess/react-flip-countdown';
+import FlipCountdown from '@africasokoni/react-flip-countdown';
 
 class ExampleTitlePosition extends Component {
-    render() {
-        return (
-            <FlipCountdown
-                titlePosition='top' // Options (Default: top): top, bottom.
-                endAt={'2022-12-12 01:26:58'} // Date/Time
-            />
-        );
-    }
+  render() {
+    return (
+      <FlipCountdown
+        titlePosition='top' // Options (Default: top): top, bottom.
+        endAt={'2022-12-12 01:26:58'} // Date/Time
+      />
+    );
+  }
 }
 ```
 
@@ -102,22 +104,22 @@ class ExampleTitlePosition extends Component {
 ```jsx
 import React, { Component } from 'react';
 
-import FlipCountdown from '@rumess/react-flip-countdown';
+import FlipCountdown from '@africasokoni/react-flip-countdown';
 
 class ExampleChangeTitle extends Component {
-    render() {
-        return (
-            <FlipCountdown
-                yearTitle='Year'
-                monthTitle='Months'
-                dayTitle='Days'
-                hourTitle='Hours'
-                minuteTitle='Minutes'
-                secondTitle='Seconds'
-                endAt={'2022-12-12 01:26:58'} // Date/Time
-            />
-        );
-    }
+  render() {
+    return (
+      <FlipCountdown
+        yearTitle='Year'
+        monthTitle='Months'
+        dayTitle='Days'
+        hourTitle='Hours'
+        minuteTitle='Minutes'
+        secondTitle='Seconds'
+        endAt={'2022-12-12 01:26:58'} // Date/Time
+      />
+    );
+  }
 }
 ```
 
@@ -126,22 +128,22 @@ class ExampleChangeTitle extends Component {
 ```jsx
 import React, { Component } from 'react';
 
-import FlipCountdown from '@rumess/react-flip-countdown';
+import FlipCountdown from '@africasokoni/react-flip-countdown';
 
 class ExampleHideSection extends Component {
-    render() {
-        return (
-            <FlipCountdown
-                hideYear
-                hideMonth
-                hideDay
-                // hideHour
-                // hideMinute
-                // hideSecond
-                endAt={'2022-12-12 01:26:58'} // Date/Time
-            />
-        );
-    }
+  render() {
+    return (
+      <FlipCountdown
+        hideYear
+        hideMonth
+        hideDay
+        // hideHour
+        // hideMinute
+        // hideSecond
+        endAt={'2022-12-12 01:26:58'} // Date/Time
+      />
+    );
+  }
 }
 ```
 
@@ -150,27 +152,27 @@ class ExampleHideSection extends Component {
 ```jsx
 import React, { Component } from 'react';
 
-import FlipCountdown from '@rumess/react-flip-countdown';
+import FlipCountdown from '@africasokoni/react-flip-countdown';
 
 class ExampleHideSection extends Component {
-    render() {
-        return (
-            <FlipCountdown
-                endAtZero
-                endAt={'2022-12-12 01:26:58'} // Date/Time
-            />
-        );
-    }
+  render() {
+    return (
+      <FlipCountdown
+        endAtZero
+        endAt={'2022-12-12 01:26:58'} // Date/Time
+      />
+    );
+  }
 }
 ```
 
 ## License
 
-MIT © [rumess](https://github.com/rumess)
+MIT © [africasokoni](https://github.com/africasokoni)
 
-[npm-image]: https://img.shields.io/npm/v/@rumess/react-flip-countdown.svg
-[npm-url]: https://npmjs.org/package/@rumess/react-flip-countdown
-[downloads-image]: https://img.shields.io/npm/dm/@rumess/react-flip-countdown.svg
-[downloads-url]: https://npmcharts.com/compare/@rumess/react-flip-countdown?minimal=true
+[npm-image]: https://img.shields.io/npm/v/@africasokoni/react-flip-countdown.svg
+[npm-url]: https://npmjs.org/package/@africasokoni/react-flip-countdown
+[downloads-image]: https://img.shields.io/npm/dm/@africasokoni/react-flip-countdown.svg
+[downloads-url]: https://npmcharts.com/compare/@africasokoni/react-flip-countdown?minimal=true
 [coding-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [coding-url]: https://standardjs.com

@@ -1,24 +1,24 @@
 {
-    "name": "react-flip-countdown-example",
-    "homepage": "https://rumess.github.io/react-flip-countdown",
-    "version": "0.0.0",
-    "private": true,
-    "dependencies": {
-        "@rumess/react-flip-countdown": "file:..",
-        "react": "../node_modules/react",
-        "react-dom": "../node_modules/react-dom",
-        "react-scripts": "../node_modules/react-scripts"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
-    ]
+  "name": "react-flip-countdown-example",
+  "homepage": "https://africasokoni.github.io/react-flip-countdown",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@africasokoni/react-flip-countdown": "file:..",
+    "react": "../node_modules/react",
+    "react-dom": "../node_modules/react-dom",
+    "react-scripts": "../node_modules/react-scripts"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
